@@ -1,0 +1,63 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  background: orange;
+}
+
+#icono {
+  height: 65px;
+  width: 95px;
+}
+
+#image img {
+  max-width: 100%;
+  height: auto;
+}
+
+#img {
+  width: 80%;
+  margin-left: 30%;
+}
+
+#img2 {
+  width: 90%;
+  margin-left: 80%;
+}
+
+video {
+  margin-left: 65%;
+}
+
+.animated {
+  opacity: 0;
+  animation: fadeIn ease-in-out 1s forwards;
+}
+
+/* Define la animación de desvanecimiento */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.carousel-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+#cesta {
+  margin-left: 90%;
+}
+
+/*# sourceMappingURL=style2.css.map */
